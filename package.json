@@ -1,0 +1,29 @@
+{
+  "name": "completador",
+  "version": "1.0.0",
+  "description": "A trie-based substitute for datalist",
+  "main": "dist/autocomplete.js",
+  "scripts": {
+    "build": "webpack --display-error-details",
+    "build-dev": "webpack --display-error-details --config webpack.dev-config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lfsmoura/completador.git"
+  },
+  "keywords": [
+    "autcomplete",
+    "datalist",
+    "trie"
+  ],
+  "author": "Leo Moura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lfsmoura/completador/issues"
+  },
+  "homepage": "https://github.com/lfsmoura/completador#readme",
+  "devDependencies": {
+    "webpack": "^1.12.13"
+  }
+}

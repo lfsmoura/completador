@@ -1,4 +1,4 @@
-var autocomplete = (function() {
+module.exports = (function() {
 
   function buildTrie(words, node) {
     node = node || {};
